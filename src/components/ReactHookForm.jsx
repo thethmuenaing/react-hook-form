@@ -56,10 +56,16 @@ const ReactHookForm = () => {
 						</label>
 						<input
 							type="number"
-							{...register("age", { valueAsNumber: true })}
+							{...register("age", {
+								valueAsNumber: true,
+								required: "This is required",
+							})}
 							id="age"
 							className="w-full mt-2 bg-white text-zinc-600 px-4 py-2 rounded-md focus:outline-none"
 						/>
+						{errors.age && (
+							<p className="text-white mt-1">{errors.age.message}</p>
+						)}
 					</div>
 
 					<div className="mb-3">
