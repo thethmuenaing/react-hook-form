@@ -9,7 +9,7 @@ const ReactHookForm = () => {
 	} = useForm();
 
 	return (
-		<div className="App">
+		<div>
 			<h2 className="text-center text-white text-4xl font-semibold mt-10 ">
 				React Hook Form
 			</h2>

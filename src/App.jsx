@@ -1,10 +1,12 @@
 import "./App.css";
-import ReactHookForm from "./components/ReactHookForm";
+// import ReactHookForm from "./components/ReactHookForm";
+import ImproveForm from "./components/ImproveForm";
 
 function App() {
 	return (
-		<div>
-			<ReactHookForm />
+		<div className="App">
+			{/* <ReactHookForm /> */}
+			<ImproveForm />
 		</div>
 	);
 }
