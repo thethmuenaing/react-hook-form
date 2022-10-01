@@ -3,7 +3,8 @@ import "./App.css";
 // import ImproveForm from "./components/ImproveForm";
 // import UseFormRegister from "./components/UseFormRegister";
 // import UseFormSetValue from "./components/UseFormSetValue";
-import UseFormReset from "./components/UseFormReset";
+// import UseFormReset from "./components/UseFormReset";
+import UseFormTrigger from "./components/UseFormTrigger";
 
 function App() {
 	return (
@@ -12,7 +13,8 @@ function App() {
 			{/* <ImproveForm /> */}
 			{/* <UseFormRegister /> */}
 			{/* <UseFormSetValue /> */}
-			<UseFormReset />
+			{/* <UseFormReset /> */}
+			<UseFormTrigger />
 		</div>
 	);
 }
