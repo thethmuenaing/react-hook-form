@@ -2,7 +2,8 @@ import "./App.css";
 // import ReactHookForm from "./components/ReactHookForm";
 // import ImproveForm from "./components/ImproveForm";
 // import UseFormRegister from "./components/UseFormRegister";
-import UseFormSetValue from "./components/UseFormSetValue";
+// import UseFormSetValue from "./components/UseFormSetValue";
+import UseFormReset from "./components/UseFormReset";
 
 function App() {
 	return (
@@ -10,7 +11,8 @@ function App() {
 			{/* <ReactHookForm /> */}
 			{/* <ImproveForm /> */}
 			{/* <UseFormRegister /> */}
-			<UseFormSetValue />
+			{/* <UseFormSetValue /> */}
+			<UseFormReset />
 		</div>
 	);
 }
