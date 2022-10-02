@@ -6,7 +6,8 @@ import "./App.css";
 // import UseFormReset from "./components/UseFormReset";
 // import UseFormTrigger from "./components/UseFormTrigger";
 // import UseFormSetError from "./components/UseFormSetError";
-import UseFormhandleSubmit from "./components/UseFormhandleSubmit";
+// import UseFormhandleSubmit from "./components/UseFormhandleSubmit";
+import UseFormController from "./components/UseFormController";
 
 function App() {
 	return (
@@ -18,7 +19,8 @@ function App() {
 			{/* <UseFormReset /> */}
 			{/* <UseFormTrigger /> */}
 			{/* <UseFormSetError /> */}
-			<UseFormhandleSubmit />
+			{/* <UseFormhandleSubmit /> */}
+			<UseFormController />
 		</div>
 	);
 }
